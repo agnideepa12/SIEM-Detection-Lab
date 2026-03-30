@@ -38,7 +38,7 @@ a Tier 1 and Tier 2 SOC analyst.
 │  ┌──────────────┐    ┌──────────────┐    ┌──────────────┐  │
 │  │  Windows 10  │    │  Kali Linux  │    │Ubuntu Server │  │
 │  │   Victim     │    │   Attacker   │    │  SIEM Node   │  │
-│  │  10.0.2.x    │    │  10.0.2.4    │    │  10.0.2.3    │  │
+│  │  10.0.2.15   |    │  10.0.2.4    │    │  10.0.2.3    │  │
 │  │              │    │              │    │              │  │
 │  │ • Sysmon     │    │ • Hydra      │    │ • Splunk     │  │
 │  │ • Splunk UF  │    │ • Nmap       │    │   10.2.1     │  │
@@ -104,7 +104,7 @@ a Tier 1 and Tier 2 SOC analyst.
 
 ---
 
-## 🔍 Detection Rules
+##  Detection Rules
 
 ### Rule 1 — SSH Brute Force Detection
 **Severity:** 🔴 High
@@ -171,7 +171,7 @@ index=windows_logs EventCode=1
 
 ---
 
-## 🗺️ MITRE ATT&CK Mapping
+##  MITRE ATT&CK Mapping
 
 | Tactic | Technique ID | Technique Name | Detection Rule |
 |---|---|---|---|
@@ -197,7 +197,7 @@ index=windows_logs EventCode=1
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 ### SOC Monitoring Dashboard
 ![Dashboard 1](screenshots/dashboard_1.png)
